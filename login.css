@@ -1,12 +1,18 @@
+
+@import url('https://fonts.cdnfonts.com/css/bauhausc');
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
     background-image: url('img/4.jpg');
     background-size: cover;
+    font-family: 'BauhausC', sans-serif;
 }
 header {
     background: linear-gradient(to right, beige,rgb(244, 244, 130));
     padding: 20px;
     position: relative;
+    font-family: 'BauhausC', sans-serif;
 }
 
 .logo {
@@ -16,6 +22,7 @@ header {
     transform: translateY(-50%);
 }
 .menu {
+    font-family: 'BauhausC', sans-serif;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,6 +51,7 @@ header {
 }
 
 .login-container h1 {
+    font-family: Arial, sans-serif;
     text-align: center;
     color: #333;
 }
@@ -54,7 +62,7 @@ header {
 }
 
 .login-container input[type="text"], .login-container input[type="password"] {
-    width: 100%;
+    width: 80%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -69,5 +77,5 @@ header {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
 }
