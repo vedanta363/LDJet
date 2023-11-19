@@ -11,13 +11,56 @@
             <img src="img/jetnobg.png" alt="jetlogo" height="80">
         </div>
         <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Book</a>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="book.html">Book</a>
             <a href="#">Contact</a>
             <a href="#">About</a>
-            <a href="#">Login</a>
+            <a href="login.html">Login</a>
         </div>
     </header>
-    
+   <section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img src="img/1.jpg" id="slide-1">
+            <img src="img/2.jpg" id="slide-2">
+            <img src="img/3.jpg" id="slide-3">
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div>
+   </section>
+   <div class="booking-container">
+    <div class="booking-form">
+        <h2>Flight Booking</h2>
+        <div class="input-group1">
+            <label for="class">Class</label>
+            <select class="ebf-class" id="class">
+            <option>Economy</option>
+            <option>Business</option>
+            <option>First</option>
+            </select>
+            <a href="#"></a>
+        </div>
+        <form>
+            <br>
+                <div class="input-group2">
+                    <label for="from">From</label>
+                    <input type="text" class="form-control trans-input-area" placeholder="Mumbai (BOM)" name=""  id="from" required>
+                    <label for="to">To</label>
+                    <input type="text" class="form-control trans-input-area" placeholder="Bangkok (BKK)" name="" id="to" required>
+                </div>
+            <br>
+            <div class="input-group3">
+                <label for="Departure">Departure Date</label>
+                <input type="date" class="form-control trans-input-area" name="date1" min="2015-01-01"  required>
+                <button id="submit" href="booking2.html" class="button-continue1" type="submit" >Continue</button>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
