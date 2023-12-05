@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="book.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/jetnobg.png" alt="jetlogo" height="80">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="book.html">Book</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+    <div class="booking-container">
+        <div class="booking-form">
+            <h2>Flight Booking</h2>
+            <div class="input-group1">
+                <label for="class">Class</label>
+                <select class="ebf-class" id="class">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First</option>
+                </select>
+                <a href="#"></a>
+            </div>
+            <form>
+                <br>
+                    <div class="input-group2">
+                        <label for="from">From</label>
+                        <input type="text" class="form-control trans-input-area" placeholder="Mumbai (BOM)" name=""  id="from" required>
+                        <label for="to">To</label>
+                        <input type="text" class="form-control trans-input-area" placeholder="Bangkok (BKK)" name="" id="to" required>
+                    </div>
+                <br>
+                <div class="input-group3">
+                    <label for="Departure">Departure Date</label>
+                    <input type="date" class="form-control trans-input-area" name="date1" min="2023-01-01"  required>
+                    <button id="submit" href="booking2.html" class="button-continue1" type="submit" >Continue</button>
+                    <br>
+                </div>
+            </form>
+            <div>
+                <br>
+                <label for="Passenger">Passenger Details</label>
+                <input type="text">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
